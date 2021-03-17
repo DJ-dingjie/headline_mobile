@@ -1,1 +1,17 @@
 // 全局样式文件
+// 导入字体图标样式
+@import './icon.less';
+.van-nav-bar__title,
+.van-nav-bar__text {
+  color: #fff !important;
+}
+.van-nav-bar .van-icon {
+  color: #fff !important;
+}
+.home-contain {
+  .van-nav-bar {
+    .van-nav-bar__title {
+      max-width: unset !important;
+    }
+  }
+}
